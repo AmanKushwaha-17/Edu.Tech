@@ -4,7 +4,7 @@ from langchain.prompts import PromptTemplate
 import json
 
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = ""
 
 llm = ChatGroq(
     model="llama-3.1-8b-instant",
